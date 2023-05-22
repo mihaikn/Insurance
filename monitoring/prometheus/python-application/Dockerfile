@@ -7,4 +7,4 @@ RUN pip install SQLAlchemy
 RUN pip install Flask-SQLAlchemy
 RUN pip install psycopg2
 RUN pip install prometheus_client
-CMD flask run -h 0.0.0 -p 5000
+CMD flask run -h 0.0.0 -p 5001
